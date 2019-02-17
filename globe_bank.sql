@@ -10,6 +10,7 @@ CREATE TABLE `admins` (
   KEY `index_username` (`username`)
 );
 
+
 INSERT INTO `admins` VALUES (1,'John','Public','john@somewhere.com','johnqpublic','$2y$10$lkeLxdtcxhm3QZSvixDkpeI/6qvy2Z8GVKWoSzLMXqv0M5k3J67J6');
 
 DROP TABLE IF EXISTS `pages`;
